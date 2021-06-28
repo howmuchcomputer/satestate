@@ -1,6 +1,6 @@
 # SatEstate
 
-A 
+A Ruby on Rails lunar real estate satellite monitoring system.
 
 ### System dependencies
 You will need the following installed on your system:
