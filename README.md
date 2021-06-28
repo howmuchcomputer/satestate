@@ -39,4 +39,24 @@ Satellite.configure do |config|
 end
 ```
 
+### Extension
+If you wish to change or add additional states to monitor; simply create another state class. Inherit from `State::Base`
+and define a class using the template below. You may have to modify the `transition` method on the default classes to
+inject your new state class into the existing control flow:
+
+```ruby
+module Satellite
+  class MyNewState < Base
+      def transition
+        return NextState.new(repository) unless altitude_stable?
+        self
+      end
+    
+      def health
+        'New state status message'
+      end
+   end
+end
+```
+
 
