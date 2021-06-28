@@ -29,4 +29,14 @@ $ rails s
 - for health updates visit: `localhost:3000/satellite/health`
 - for current stats visit: `localhost:3000/satellite/stats`
 
+### Configuration
+Modify the following configuration block inside `config/initializers/satellite.rb` if you wish 
+to change the API url, what defines a stable altitude, etc.
+
+```ruby
+Satellite.configure do |config|
+  # configure API here
+end
+```
+
 
