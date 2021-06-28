@@ -46,16 +46,18 @@ inject your new state class into the existing control flow:
 
 ```ruby
 module Satellite
-  class MyNewState < Base
-      def transition
-        return NextState.new(repository) unless altitude_stable?
-        self
-      end
-    
-      def health
-        'New state status message'
-      end
-   end
+  module State
+    class MyNewState < Base
+        def transition
+          return NextState.new(repository) unless altitude_stable?
+          self
+        end
+      
+        def health
+          'New state status message'
+        end
+     end
+  end  
 end
 ```
 
