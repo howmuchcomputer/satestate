@@ -36,6 +36,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v6.1.4, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v6.1.4, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v6.1.4, ruby-2.3.7-p456) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.7.0, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.7.5, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.6, ruby-2.3.7-p456) [gem]" level="application" />
@@ -57,6 +58,7 @@
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.4.2, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.7, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.11.7, ruby-2.3.7-p456) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.6, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v5.3.2, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.5.2, ruby-2.3.7-p456) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.3, ruby-2.3.7-p456) [gem]" level="application" />
